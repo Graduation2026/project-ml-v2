@@ -1,0 +1,30 @@
+# Python Caches & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.o
+*.obj
+*.dll
+*.exe
+
+# Local Environments
+.env
+vuln_env/
+venv/
+env/
+.venv/
+
+# Heavy Machine Learning Data Directories (Keep Local)
+processed/
+graphs/
+runs/
+binpool_repo/
+
+# User IDE & OS specific files
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.user
+*.db
