@@ -1,4 +1,6 @@
 import json, torch
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "model_training"))
 import torch.nn.functional as F
 from gnn_model import VulnGNN
 from torch_geometric.loader import DataLoader
